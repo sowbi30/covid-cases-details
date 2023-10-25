@@ -1,0 +1,105 @@
+/* Add your CSS styling here */
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    background: url('https://news.asu.edu/sites/default/files/35327061344_d199614bd8_k.jpg') center/cover no-repeat; /* Add your background image URL here */
+    border-radius: 20px; /* Adds border radius */
+    padding: 20px;
+}
+.flex-box{
+    margin-bottom: 10px;
+    border-radius: 1px;
+     border: 1px solid #ccc;
+    border-style: dashed;
+    background-color: #770863;
+}
+h1 {
+    text-align: center;
+    justify-content: center;    
+    flex-direction: column;
+    color: whitesmoke;
+    
+}
+
+.selection {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px black;
+    border-style: dashed;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    border-radius: 5px;
+    background: #770863 /* Set background color for the selection div */
+}
+
+#states {
+    background-color: #ee97d2; /* Background color */
+    border: 1px solid #e9bada; /* Border color */
+    color: whitesmoke; /* Text color */
+    padding: 5px; /* Padding */
+    border-radius: 5px; /* Border radius */
+}
+
+
+#districts {
+    background-color: #ee97d2; /* Background color */
+    border: 1px solid #ccc; /* Border color */
+    color: whitesmoke; /* Text color */
+    padding: 5px; /* Padding */
+    border-radius: 5px; /* Border radius */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: beige;
+    font-weight: bolder;
+    border-style: dashed;
+    border: 1px solid #ccc;
+    background: rgba(234, 167, 212, 0.8); /* Set background color with opacity */
+    border-radius: 10px; /* Adds border radius to the table */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #770863;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #c30c92;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-style: dashed;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ed91d4;
+    opacity: 03s;
+}

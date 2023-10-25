@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="flex-box"><h1><b>COVID-19 Data in India</b></h1></div>
+    <div class="selection">
+        <label for="states">Select State:</label>
+        <select id="states"></select>
+        <label for "districts">Select District:</label>
+        <select id="districts"></select>
+        <button id="showData">Show Data</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>State</th>
+                <th>District</th>
+                <th>Total Population</th>
+                <th>Total Confirmed-Cases</th>
+                <th>Total Deceased</th>
+                <th>Total Recovered</th>
+                <th>Total Vaccinated 1</th>
+                <th>Total Vaccinated 2</th>
+            </tr>
+        </thead>
+        <tbody id="dataBody"></tbody>
+    </table>
+   
+    <script src="https://use.fontawesome.com/b658993120.js"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
